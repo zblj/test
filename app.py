@@ -13,5 +13,10 @@ def hello():
 def hello():
 	return render_template('new account.html')
 
+@app.route("/pwd_change/")
+def hello():
+	return render_template('pwd_change.html')
+
+
 if __name__ == "__main__":
 	app.run(host='0.0.0.0', port=5000, debug=True)
