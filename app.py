@@ -16,6 +16,8 @@ def hello():
 @app.route("/pwd_change/")
 def hello():
 	return render_template('pwd_change.html')
+	
+#neka sprememba
 
 
 if __name__ == "__main__":
